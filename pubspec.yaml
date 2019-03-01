@@ -1,0 +1,21 @@
+name: dart_clawl
+description: A sample command-line application.
+version: 0.0.1
+# homepage: https://www.example.com
+# author: ChenMingMing <email@example.com>
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+ args: ^1.5.1
+ path: ^1.4.1
+ html: ^0.13.3+3
+ quiver: '>=2.0.0 <3.0.0'
+
+dev_dependencies:
+  pedantic: ^1.0.0
+  test: ^1.0.0
+
+executables:
+  crawler: main
